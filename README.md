@@ -1,10 +1,10 @@
-# Python Cyber Tools 🔐🐍
+# Python Cyber Tools
 
 A collection of beginner-friendly Python tools for cybersecurity, networking, and automation.
 
 ## Features
 
-### 🔑 Password Strength Checker
+### Password Strength Checker
 
 * Checks password strength based on:
 
@@ -15,13 +15,13 @@ A collection of beginner-friendly Python tools for cybersecurity, networking, an
   * Special characters
 * Provides strength ratings and feedback.
 
-### 🎲 Random Password Generator
+### Random Password Generator
 
 * Generates secure random passwords.
 * Supports customizable password length.
 * Uses Python's secure random functions.
 
-### 📁 File Metadata Viewer
+### File Metadata Viewer
 
 * Displays file information such as:
 
@@ -31,12 +31,12 @@ A collection of beginner-friendly Python tools for cybersecurity, networking, an
   * File extension
   * File or directory type
 
-### 📜 Log Analyzer
+### Log Analyzer
 
 * Reads log files and extracts useful information.
 * Can be extended to detect errors, warnings, or suspicious activity.
 
-### 🌐 DNS Lookup Tool
+### DNS Lookup Tool
 
 Perform DNS and network lookups for domains and IP addresses.
 
