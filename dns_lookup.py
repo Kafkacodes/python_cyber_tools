@@ -14,6 +14,11 @@ if choice == "1":
     host = socket.getfqdn(domain)
     print(f"host name of {domain} is: {host}\n")
 
+    import whois
+    info = whois.whois(domain)
+    print(info)
+    
+
     services = ["ftp", "http", "https", "smtp", "pop3", "imap", "domain", "ssh", "telnet"]
     for service in services:
         try:
