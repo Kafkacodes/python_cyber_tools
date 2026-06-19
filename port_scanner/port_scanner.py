@@ -1,5 +1,7 @@
 domain = input("Enter a domain name or IP address: ").strip()
 import socket
+import time
+start = time.time()
 
 common_ports = common_ports = [
     21, 22, 23, 25, 53,
@@ -27,4 +29,14 @@ for port in common_ports:
     ip = socket.gethostbyname(domain)
     if s.connect_ex((ip, port)) == 0:
         print(f"[OPEN] Port {port} ({name})")
+
+        try:
+            banner = s.recv(1024).decode().strip()
+            if banner:
+                print(f"Banner: {banner}")
+        except:
+            print("No banner received.")
     s.close()   
+
+end = time.time()
+print(f"\nScan completed in {end - start:.2f} seconds.")
