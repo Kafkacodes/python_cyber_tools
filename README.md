@@ -97,5 +97,3 @@ These tools are built for educational purposes and ethical security research onl
 
 ## License
 This project is licensed under the MIT License.
-
-This project is licensed under the MIT License.
