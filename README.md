@@ -49,6 +49,21 @@ Features:
 * Shows IPv4 and IPv6 addresses
 * WHOIS lookup support
 
+### Port Scanner
+
+Scan TCP ports on domains or IP addresses and identify available services.
+
+Features:
+
+* Common Port Scanner
+* Custom Port Scanner
+* Service Detection
+* Banner Grabbing
+* Domain to IP Resolution
+* Scan Timing
+* Fast socket-based scanning
+* Support for user-defined port lists
+
 ## Installation
 
 Clone the repository:
@@ -79,21 +94,32 @@ pip install python-whois
 
 ## Run a Tool
 
-Example:
-
-```bash
-python dns_lookup.py
-```
-
-or
+Examples:
 
 ```bash
 python password_strength.py
+python password_random.py
+python meta_data.py
+python log_analyzer.py
+python dns_lookup.py
+python port_scanner.py
 ```
+
+
+## Future Improvements
+
+* Multi-threaded Port Scanner
+* UDP Scanning
+* Latency Measurement
+* Result Exporting
+* HTTP Header Viewer
+* Packet Analysis Utilities
+* Network Reconnaissance Tools
 
 ## Disclaimer ⚠️
 
 These tools are built for educational purposes and ethical security research only. Do not use them against systems you do not own or have permission to test.
 
 ## License
+
 This project is licensed under the MIT License.
